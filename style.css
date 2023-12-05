@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(img/happy-new-year-greeting-card-new-year-celebration-generative-ai_158023-3659.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff; /* Text color on top of the image */
+      font-family: poppins, sans-serif;
+      margin: 0;
+      font-size: 30px;
+      
+}
+
+.Box{
+    position: absolute;
+    width: 100%;
+    height:100vh;
+    background: rgba(78, 74, 74, 0.15);
+    backdrop-filter: blur(50px);
+    border-radius: 15px;
+    display: flex;
+  
+    color: black;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding:20px ;
+
+  }
+
+
+
+ .vertical-line {
+    border-left: 2px solid #333;
+    height: 650px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px;
+ }
+ .horizontal-line{
+    border-left: 2px solid #333;
+    width: 500px;
+    margin: 20px;
+ }
